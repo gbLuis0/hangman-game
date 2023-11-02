@@ -21,9 +21,9 @@ Um joguinho da forca feito em python
     <dd>
     <ol>
         <li> abra o cmd
-        <li> dê <b>```git clone &lturl do projeto&gt```</b>
-        <li> depois <b>```cd &ltnome do projeto&gt```</b>
-        <li> e por fim <b>```python main.py```</b>
+        <li> dê <b><code>git clone &lturl do projeto&gt</code></b>
+        <li> depois <b><code>cd &ltnome do projeto&gt</code></b>
+        <li> e por fim <b><code>python main.py</code></b>
 </dl>
 
 ## Linux
