@@ -19,11 +19,12 @@ Um joguinho da forca feito em python
     </ol>
     <dt> Opção 2
     <dd>
-    <ol>
-        <li> abra o cmd
-        <li> dê <b><code>git clone &lturl do projeto&gt</code></b>
-        <li> depois <b><code>cd &ltnome do projeto&gt</code></b>
-        <li> e por fim <b><code>python main.py</code></b>
+    <p>No CMD, digite os comandos respectivamente:</p>
+    <code>
+    git clone &lturl do projeto&gt
+    cd &ltnome do projeto&gt
+    python main.py
+    </code>
 </dl>
 
 ## Linux
