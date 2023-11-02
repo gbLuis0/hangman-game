@@ -1,4 +1,4 @@
-from desenho import desenhol
+from desenho import forca
 
 print('\x1b[2J\x1b[1;1H')
 tentativas = c = 0
@@ -12,9 +12,10 @@ dica = input("Digite a dica: ").strip()
 while (tentativas != 6):
     print('\x1b[2J\x1b[1;1H')
     print('Dica:',dica)
-    print(desenhol[tentativas])
+    print(forca[tentativas])
     print(f'Letras erradas: {letras_erradas}')
     print(f'Letras certas: {letras_certas}')
+
     letra = input("\nLetra: ").lower()[0]
     if (letra in palavra):
         if (letra not in letras_certas):
@@ -31,7 +32,6 @@ while (tentativas != 6):
             break
         c = 0
         
-        
     else:
         print(f'"{letra}" não existe nessa palavra')
         if (letra not in letras_erradas):
@@ -41,6 +41,7 @@ while (tentativas != 6):
     
     input('\nenter para continuar')
 
-print(desenhol[tentativas])
+
+print(forca[tentativas])
 print(f'Tentativas esgotadas!\nPalavra certa: {palavra}')
 input('\nenter para sair')
