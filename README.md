@@ -26,7 +26,7 @@ Um joguinho da forca feito em python
         <li> e por fim <b><code>python main.py</code></b>
 </dl>
 
-## Linux
+## Download for Linux
 ```
 apt install git python3
 git clone https://github.com/gb_Luis0/hangman-game
